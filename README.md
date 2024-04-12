@@ -1,12 +1,11 @@
 # Number Beautifier
 
+### Conditions:
 Given the function <i>numberWithSpaces</i> in <i>src/util/GetSpaceSeparatedNum/GetSpaceSeparatedNum.ts</i>
-
-# Conditions:
-Study this function, describe how it works and what it is needed for
+Study this function, describe how it works and what it is needed to
 Rewrite the function using other, more understandable methods
 
-# Requirements:
+### Requirements:
 The original <i>numberWithSpaces</i> function should remain unchanged, your task is to implement a new function newFunc that performs the same actions
 The entire task must be done on the website www.typescriptlang.org/play
 To view the code execution log, you can use the “Logs” tab on the right side of the site
@@ -14,11 +13,11 @@ To view the code execution log, you can use the “Logs” tab on the right side
 Tests:
 There is a block with tests on the page, which should also remain unchanged. The task is considered completed if all tests complete without FAILED.
 
-*Additional task:
+### *Additional task:
 
 There is a theoretical error in the code that will return undefined. If you find and correct it, it will be a huge plus when grading the test item.
 
-# P.S
+### P.S
 1) target 5132.51321
    x, false 5.13B
    x, true 5 132.51321
