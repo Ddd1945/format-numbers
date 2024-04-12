@@ -8,8 +8,6 @@ export const runMainBlock = () => {
   ];
 
   tests.forEach((number, index) => {
-    const old0 = number;
-
     const oldFull = numberWithSpaces(number, true);
     const oldShort = numberWithSpaces(number, false);
 
