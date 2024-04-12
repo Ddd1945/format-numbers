@@ -2,9 +2,7 @@ import { getSpaceSeparatedNumParams } from "../Interfaces/Interfaces";
 import { insertIntoStr } from "../InsertIntoStr/InsertIntoStr";
 import { removeLastCharacter } from "../RemoveLastCharacter/RemoveLastCharacter";
 
-export const getSpaceSeparatedNum = (
-  params: getSpaceSeparatedNumParams
-): string => {
+export const newFunc = (params: getSpaceSeparatedNumParams): string => {
   try {
     let xStr: string = params.x.toString();
     let xStrLen = xStr.length;

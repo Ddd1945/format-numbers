@@ -1,4 +1,4 @@
-import { getSpaceSeparatedNum } from "../../util/GetSpaceSeparatedNum/GetSpaceSeparatedNum";
+import { newFunc } from "../../util/GetSpaceSeparatedNum/GetSpaceSeparatedNum";
 import { numberWithSpaces } from "../../util/NumberWithSpaces/NumberWithSpaces";
 
 export const runMainBlock = () => {
@@ -13,8 +13,8 @@ export const runMainBlock = () => {
     const oldFull = numberWithSpaces(number, true);
     const oldShort = numberWithSpaces(number, false);
 
-    const newFull = getSpaceSeparatedNum({ x: number, isFullValue: true });
-    const newShort = getSpaceSeparatedNum({ x: number, isFullValue: false });
+    const newFull = newFunc({ x: number, isFullValue: true });
+    const newShort = newFunc({ x: number, isFullValue: false });
 
     const status = oldFull == newFull && oldShort == newShort;
     console.log(
