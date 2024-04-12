@@ -18,7 +18,7 @@ There is a block with tests on the page, which should also remain unchanged. The
 There is a theoretical error in the code that will return undefined. If you find and correct it, it will be a huge plus when grading the test item.
 
 ### P.S
-1) <i>target = 5132.51321; x, false = 5.13B; x, true = 5 132.51321</i> , The abbreviation is not correct, isn't? It was 5K, but then if has become 5. Also considering how other abbreviations works like - <i>target = 12345678; x, false = 12.34M; x, true = 12 345 678</i>, it turns out that from 5K the number turned into 5B.
+1) <i>target = 5132.51321; x, false = 5.13B; x, true = 5 132.51321</i> , The abbreviation is not correct, isn't? Considering how other abbreviations works like - <i>target = 12345678; x, false = 12.34M; x, true = 12 345 678</i>, it turns out that from 5K the number turned into 5B.
 
 2) Hierarchy like <i>GetSpaceSeparatedNum/GetSpaceSeparatedNum.ts</i> was choosen to add more clarity cause running of .ts file generates .js files in the same directory.
 
