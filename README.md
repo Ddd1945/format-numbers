@@ -13,7 +13,7 @@ To view the code execution log, you can use the “Logs” tab on the right side
 Tests:
 There is a block with tests on the page, which should also remain unchanged. The task is considered completed if all tests complete without FAILED.
 
-### *Additional task:
+### Additional task:
 
 There is a theoretical error in the code that will return undefined. If you find and correct it, it will be a huge plus when grading the test item.
 
