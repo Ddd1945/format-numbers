@@ -47,7 +47,7 @@ export const newFunc = (params: getSpaceSeparatedNumParams): string => {
       let shrinkedFormat: string = "";
 
       if (xStr.length > 12) return "999B+";
-      if (partsLength >= 3 && partsLength < 6) return result;
+      else if (partsLength >= 3 && partsLength < 6) return result;
       else if (partsLength >= 6 && partsLength < 9) shrinkedFormat = "M";
       else if (partsLength >= 9 && partsLength < 12) shrinkedFormat = "B";
       else shrinkedFormat = "";
