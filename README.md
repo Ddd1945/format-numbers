@@ -1,4 +1,4 @@
-# Number Beautifier
+# Number Beautifier (test task)
 
 ### Conditions:
 Given the function <i>numberWithSpaces</i> in <i>src/util/GetSpaceSeparatedNum/GetSpaceSeparatedNum.ts</i>
